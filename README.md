@@ -12,7 +12,11 @@
 <br />
 
 A deep learning project that classifies human facial expressions into 7 distinct emotions using a custom Convolutional Neural Network (CNN). The system is trained on grayscale images and includes a real-time detection module using OpenCV to predict emotions directly from a live webcam feed.
+## 🗄️ Dataset
 
+This project was trained using the official [FER-2013 (Facial Expression Recognition)](https://www.kaggle.com/datasets/msambare/fer2013) dataset from Kaggle. The data consists of 48x48 pixel grayscale images of faces, pre-categorized into training and testing directories. 
+
+*(Note: The dataset is not hosted in this repository due to size constraints. To run this notebook locally, download the dataset from Kaggle and update the `train_dir` and `test_dir` absolute paths in the setup cell.)*
 ---
 
 ## ✨ Key Features
